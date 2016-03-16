@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Bitbucket/colony-counter-android-1/build/intermediates/exploded-aar/colony-counter-android-1/TimesSquareLibrary/unspecified/res/values-v9/values-v9.xml -->
+    <eat-comment/>
+    <string name="month_name_format">LLLL yyyy</string>
+</resources>

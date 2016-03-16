@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_root2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_top2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/btn_background" >
+
+        <LinearLayout
+            android:id="@+id/btn_result_cancel_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/selector_btn_clicked"
+                android:padding="10dp"
+                android:src="@drawable/btn_cancel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_save_or_ok_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white" >
+
+            <ImageButton
+                android:id="@+id/btn_save_or_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_clicked"
+                android:padding="10dp"
+                android:src="@drawable/btn_save2" />
+        </LinearLayout>
+		
+        <LinearLayout 
+            android:id="@+id/layout_title_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            
+            <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:text="@string/colony_detail_dialog_title"
+	            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+            
+            <TextView
+	            android:id="@+id/text_result"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_toRightOf="@+id/textView1"
+	            android:text="50"
+	            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+            
+            <!--<TextView-->
+	            <!--android:layout_width="wrap_content"-->
+	            <!--android:layout_height="wrap_content"-->
+	            <!--android:layout_centerHorizontal="true"-->
+	            <!--android:layout_centerVertical="true"-->
+	            <!--android:text="個"-->
+	            <!--android:textAppearance="?android:attr/textAppearanceLargeInverse" />-->
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/layout_title_bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone">
+            
+            <TextView
+	            android:id="@+id/title_bar_msg"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_toRightOf="@+id/textView1"
+	            android:text="新增標記"
+	            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_result_cancel_container"
+            android:layout_toRightOf="@+id/btn_result_cancel_container"
+            android:background="@color/white" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_save_or_ok_container"
+            android:layout_toLeftOf="@+id/btn_save_or_ok_container"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+	<com.colonycount.cklab.libs.crop.PhotoView2
+        android:id="@+id/cropimageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/layout_img_info" />
+
+    <!--<RelativeLayout
+        android:id="@+id/text_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_img_info2"
+        android:background="@color/btn_background"
+        android:padding="5dp" >
+        
+         <com.colonycount.cklab.view.AutoResizeTextView
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" 
+            android:textSize="26sp"
+            android:maxLines="1"
+            android:text="你可以進一步編輯計算結果:"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </RelativeLayout> -->
+    
+    <LinearLayout
+        android:id="@+id/action_bot_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_img_info2"
+        android:background="@color/btn_background"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_btn_clicked"
+                android:src="@drawable/btn_add_v2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <ImageButton
+                android:id="@+id/btn_sub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_btn_clicked"
+                android:src="@drawable/btn_sub_v2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_btn_clicked"
+                android:src="@drawable/btn_edit_v2" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/msg_bot_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_img_info2"
+        android:background="@color/btn_background"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/text_action_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Medium Text"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/layout_img_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout_top2">
+        
+        <RelativeLayout 
+	        android:id="@+id/text_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true">
+	        
+	        <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:text="@string/colony_detail_dialog_date"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/img_info_date"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_toRightOf="@+id/textView3"
+		        android:text="2014/12/4"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		    
+		    <TextView
+		        android:id="@+id/textView9"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/textView3"
+		        android:text="@string/colony_detail_dialog_colony_type"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/img_info_type"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/textView3"
+		        android:layout_toRightOf="@+id/textView9"
+		        android:text="@string/experiment_info_not_set"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		
+		    <!-- <TextView
+		        android:id="@+id/textView5"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/textView3"
+		        android:text="實驗對照參數:"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/textView6"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/textView4"
+		        android:layout_toRightOf="@+id/textView5"
+		        android:text="未設定"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/textView7"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/textView5"
+		        android:text="稀釋倍數:"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" />
+		
+		    <TextView
+		        android:id="@+id/textView8"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/textView6"
+		        android:layout_toRightOf="@+id/textView7"
+		        android:text="未設定"
+		        android:textColor="@color/red"
+		        android:textSize="12sp" /> -->
+	    </RelativeLayout>
+	    
+        <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true" >
+	
+	        <TextView
+	            android:id="@+id/show_red_colony"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="50"
+	            android:textColor="@drawable/selector_text_red_clicked"
+            	android:drawableLeft="@drawable/selector_eye_red_clicked"
+	            android:layout_alignLeft="@+id/align_left_text"
+	            android:layout_alignParentTop="true"
+	            android:padding="1dp" />
+	
+	        <!-- <TextView
+	            android:id="@+id/show_green_colony"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/align_left_text"
+	            android:layout_below="@+id/show_red_colony"
+	            android:drawableLeft="@drawable/selector_eye_green_clicked"
+	            android:text="120個"
+	            android:textColor="@drawable/selector_text_green_clicked"
+	            android:padding="1dp" /> -->
+			
+	        <!-- <TextView
+	            android:id="@+id/show_purple_colony"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/align_left_text"
+	            android:layout_below="@+id/show_green_colony"
+	            android:drawableLeft="@drawable/selector_eye_blue_clicked"
+	            android:text="0個"
+	            android:textColor="@drawable/selector_text_blue_clicked"
+	            android:padding="1dp" /> -->
+	    </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/layout_img_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cropimageview">
+        
+	    <TextView
+	        android:id="@+id/textView7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/colony_detail_dialog_dilution_rate"
+	        android:textColor="@color/red"
+	        android:textSize="12sp" />
+	
+	    <TextView
+	        android:id="@+id/img_info_dilution_num"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/textView7"
+	        android:text="@string/experiment_info_not_set"
+	        android:textColor="@color/red"
+	        android:textSize="12sp" />
+	    
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/textView7"
+	        android:text="@string/colony_detail_dialog_experiment_parameters"
+	        android:textColor="@color/red"
+	        android:textSize="12sp" />
+	
+	    <TextView
+	        android:id="@+id/img_info_exp_param"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/img_info_dilution_num"
+	        android:layout_toRightOf="@+id/textView5"
+	        android:text="@string/experiment_info_not_set"
+	        android:textColor="@color/red"
+	        android:textSize="12sp" />
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/D:/Bitbucket/colony-counter-android-1/src/main/res/layout/layout_result.xml -->

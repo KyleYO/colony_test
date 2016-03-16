@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-cb306d0755ebf47cbe8124a21436e16f91b237db.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-bf1f0a32f01db3c3287cbcd7f878653358810e96.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="157a30d5ac1f47c40b7d5f7a1cf9f90709842a7d">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-f26a4ee0939bed8d52368a66a94ba5cbcc8754c1.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97975c8037a420c5f5338482f43c89664667460b">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-39e6c9cccc516d9005e99d1ae5881445f334af8b.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-1f51ea6ed46510d8c12a63a508e17fcdcb1cd469.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-de6239d267e2d457157c83e0921c609f50f39bc2.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\colony-counter-android\TimesSquareLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ec04dc1251ef0eded7958ee53480b8c7e0a0d65">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-fd5db8f9189b8419d80832ba4673f269575ef46c.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="157a30d5ac1f47c40b7d5f7a1cf9f90709842a7d">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-d751a8df90c788a8045be830fa1af9fd7de527dd.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.edmodo\rangebar\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b935227af51c2df70e2be2cbfc5872ff2d726ed5">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-1cc9bd566a6f00cdacfed6d51050a4af5df406aa.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\pca_transform.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b4245209d0dce2b1dfda9a05620fcc2367150d3">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\pca_transform-7802eba2346d8b38ed89b00346d41b5be4d25595.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.9\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0646a69202e012430c50c200be88fc6b4d191818">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-2a8177508b954c7ea4a3a3164e41c80b830317ba.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-7c8390ce748ab3a77cc1f06206388bf2972f099d.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b3e8d7c28f2b92052462ad8b92f3a8293f74ce0">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-e9282f5f9c656660fe400b31e9263075f8e13e4d.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\Jama-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4e7b3b81770450a21b4295e27c2ccb802ab537e1">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\Jama-1.0.3-9efacb8d4edae2fa3ca8e9221eaae20e6c2cadd4.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-81079a880d3041e942c8695cc959e7e74594e43e.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\pca_transform.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b4245209d0dce2b1dfda9a05620fcc2367150d3">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\pca_transform-c993a6833a11742288c19d308da03004cbe7296f.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-87296cd85ae260be0854dddacb95eba5ec74d27f.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-9ef02267d7d9dd068d35c1cdc8114b07cfb195de.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\disklrucache-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7d14a74fb87b3e0a7df770036db5f8454b475a07">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\disklrucache-1.3.1-85a2cf865ced7914097fea4e01f80d4fc718e08e.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\colony-counter-android-1\openCVLibrary300\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e897f515ca658ffef9f2c9831734c9f430efebfc">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-f15504246361d6e71c7fc2bc601696c93025e43c.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\disklrucache-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7d14a74fb87b3e0a7df770036db5f8454b475a07">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\disklrucache-1.3.1-af3f908ccbe01a1971ea3981a9ec9397945077bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\kyle\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\support-annotations-22.2.0-8be53ffdae236551fa186433cc5ced21feaafab2.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97975c8037a420c5f5338482f43c89664667460b">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-4e43ed1dc7b0a8640ee6419c85de394c1f956857.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\internal_impl-22.2.0-a1c42de4a0b5c8ce0672b1ad44d2fb4b828b103f.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\Jama-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4e7b3b81770450a21b4295e27c2ccb802ab537e1">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\Jama-1.0.3-93dacad398905c26bce34ba41d486cf6b2467cab.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-ac229829548de300f38078dc287e12306f284fab.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\internal_impl-22.2.0-b7ac8bf094433f25839d54a46ed3714f32794fbd.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\org.json-20120521.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e04ebf63b984b19433748f06d50c1aba995a6292">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\org.json-20120521-5e0902c56910da306cdd34df45efd68550387ba6.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b3e8d7c28f2b92052462ad8b92f3a8293f74ce0">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-13eb59e9753b8b0fd55c0bf88d3c20c962bfc258.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\colony-counter-android-1\TimesSquareLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1db1c468be0ab4b83e75a3e88e442f6a0b24a93a">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-1ba98204476e6016fd11b3ec002630193b099e81.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-dcfe9a82e5a9e741af8a37d5c609befbfdfc018a.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.edmodo\rangebar\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b935227af51c2df70e2be2cbfc5872ff2d726ed5">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-baaaab8a98730cdf5e0b1dbfe1fa62119805d6aa.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-b945b83af8be6a5a57f78b7a6d586c2864880fd8.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\comirva-0.36.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fb05ff1d494d0e015315237244899fcc29ecce6">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\comirva-0.36-9a77bb51fae9a4eb0a0e89b5b02a7bc60ca4e1b3.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\ColonyCountCore.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b50b3571c1136835afc1ebc15c81c4cd0207adaf">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\ColonyCountCore-207a1575f697a0e84df48813236df62f0435fb34.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\universal-image-loader-1.9.4-aa2bee1c63cbc48072835d0fa4567baf4a818614.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\colony-counter-android\openCVLibrary300\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d5c16bb15a37a38d91d4225090ab14c4015d40c">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-7ce590cd7d5583d819d3e5cfb0278b2f0d2b97a3.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\libs\org.json-20120521.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e04ebf63b984b19433748f06d50c1aba995a6292">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\org.json-20120521-360097bf1adff379a82036bddf925d05724269ae.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-f62647746ff807a13929614ecb5f0647e8e0b361.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\classes-ae62881028404ef525b0d5e9d909f3c7f36b0488.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\comirva-0.36.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fb05ff1d494d0e015315237244899fcc29ecce6">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\comirva-0.36-40339f477c597b30f078585f367b667301ee1a3e.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\ColonyCountCore.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b50b3571c1136835afc1ebc15c81c4cd0207adaf">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\ColonyCountCore-9ca9fc24f636593d6f2e95c5bfcfa8ad24d2f3d3.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android-1\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="D:\Bitbucket\colony-counter-android-1\build\intermediates\pre-dexed\release\universal-image-loader-1.9.4-7df1210965ee9cf3e8ed6aa1c5c35942dda6516a.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.9\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0646a69202e012430c50c200be88fc6b4d191818">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-1f8987935d172b519ba6fc4f564efa7e12855923.jar" />
+    </item>
+    <item
+        jar="D:\Bitbucket\colony-counter-android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="D:\Bitbucket\colony-counter-android\build\intermediates\pre-dexed\release\classes-507a8e52718944cfa5a3becf66d0d45769bd3505.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="photo_top_background">#323232</color>
+    <color name="photo_mid_background">#545454</color>
+    <color name="white">#FFFFFF</color>
+    <color name="home_background">#B2D6F7</color>
+    <color name="home_background_clicked">#80B2D6F7</color>
+    <color name="btn_background">#6A94CD</color>
+    <color name="dialog_background">#B2D6F7</color>
+    <color name="btn_clicked">#806A94CD</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="purple">#EF04D6</color>
+    <color name="black">#000000</color>
+    <color name="license_gray">#666666</color>
+    <color name="license_dark_gray">#444444</color>
+    <color name="eye_red">#C51723</color>
+    <color name="eye_green">#8EC552</color>
+    <color name="eye_blue">#7AC499</color>
+    <color name="eye_red_clicked">#A0C51723</color>
+    <color name="eye_green_clicked">#A08EC552</color>
+    <color name="eye_blue_clicked">#A07AC499</color>
+    
+    
+    <!-- calendarpicker library -->
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+	<color name="calendar_bg">#ffffffff</color>
+	<color name="calendar_divider">#ffbababa</color>
+	<color name="calendar_inactive_month_bg">#ffd7d9db</color>
+	<color name="calendar_selected_day_bg">#ff379bff</color>
+	<color name="calendar_highlighted_day_bg">#ccffcc</color>
+	<color name="calendar_selected_range_bg">#ff96caff</color>
+	<color name="calendar_text_inactive">#40778088</color>
+	<color name="calendar_text_active">#ff778088</color>
+	<color name="calendar_text_selected">#ffffffff</color>
+	<color name="calendar_text_unselectable">#7f778088</color>
+	
+	<!-- grid selector color -->
+	<color name="grid_state_pressed">#800000FF</color>
+    <color name="grid_state_focused">#800000FF</color>
+</resources>

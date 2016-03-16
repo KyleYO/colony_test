@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Bitbucket/colony-counter-android-1/src/main/res/values-en-rUS/strings.xml -->
+    <eat-comment/>
+    <string-array name="drawer_menu">
+        <item>My colonies</item>
+        <item>Settings</item>
+        <item>Log out</item>
+    </string-array>
+    <string name="actionbar_menu_search_colony">Search colony</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_search">Search</string>
+    <string name="colony_detail_dialog_colony_type">Colony type:</string>
+    <string name="colony_detail_dialog_date">Experiment date:</string>
+    <string name="colony_detail_dialog_dilution_rate">Dilution rate:</string>
+    <string name="colony_detail_dialog_experiment_parameters">Experiment rate:</string>
+    <string name="colony_detail_dialog_title">Colony number:</string>
+    <string name="colony_type">Colony type</string>
+    <string name="counting_dialog_error_msg">Error occurs, please try again</string>
+    <string name="counting_dialog_msg">Counting, please wait...</string>
+    <string name="cropphoto_msg">Crop the photo and start counting colony number</string>
+    <string name="dilution_rate">Dilution rate</string>
+    <string name="drawer_close">closing</string>
+    <string name="drawer_logout_msg">Are you sure you want to log out?</string>
+    <string name="drawer_logout_title">Log out</string>
+    <string name="drawer_open">opening</string>
+    <string name="edittext_hint_msg">add item here...</string>
+    <string name="experiment_date">Experiment date</string>
+    <string name="experiment_info_not_set">not set</string>
+    <string name="experiment_parameters">Experiment parameters</string>
+    <string name="fragment_settings_construction_msg">This page is under construction...</string>
+    <string name="home_info_message">You don\'t have any colony data. Please choose \"Take photo\" or \"Choose photo\" to start counting colony number!</string>
+    <string name="home_loading_message">Loading images, please wait...</string>
+    <string name="lack_of_camera_error">Fail opening camera due to lack of camera</string>
+    <string name="loading">loading</string>
+    <string name="result_add_colony">Add colony tag</string>
+    <string name="result_add_colony_msg">Click on the screen to add colony tag</string>
+    <string name="result_remove_colony">Remove colony tag</string>
+    <string name="result_remove_colony_msg">Click on the screen to remove colony tag</string>
+    <string name="result_saving_img_error_msg">Saving image fail. Error message: </string>
+    <string name="result_saving_img_msg">Saving image, please wait...</string>
+    <string name="result_setting_experiment_date_dialog_title">Set experiment date</string>
+    <string name="result_setting_experiment_info_dialog_title">Set experiment information</string>
+    <string name="search_colony_option_all">All</string>
+    <string name="search_colony_result_msg">No result satisfying searching condition!</string>
+    <string name="set_experiment_date_dialog_title">Choose experiment date range</string>
+    <string name="system_info">System message</string>
+    <string name="takephoto_error_msg_after_taking">Focus fail. Please try again</string>
+    <string name="takephoto_msg_after_taking">Retake photo or start counting colony number</string>
+    <string name="takephoto_msg_before_taking">Aim the petri dish at the circle and take photo</string>
+</resources>

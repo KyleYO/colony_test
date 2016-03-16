@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Google, Inc
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="app_name">Colony Counter</string>
+    <string name="system_info">系統訊息</string>
+    <string name="counting_dialog_msg">計算中，請稍後...</string>
+    <string name="counting_dialog_error_msg">計算時發生錯誤，請再試一次</string>
+    <string name="lack_of_camera_error">此設備無配置相機，無法拍照</string>
+    <string name="experiment_info_not_set">未設定</string>
+    <string name="actionbar_menu_search_colony">搜尋菌落</string>
+    <string name="experiment_date">實驗日期</string>
+    <string name="colony_type">菌種</string>
+    <string name="dilution_rate">稀釋倍數</string>
+    <string name="experiment_parameters">實驗參數</string>
+    <string name="btn_ok">確定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_search">搜尋</string>
+    <string name="set_experiment_date_dialog_title">選取實驗日期範圍</string>
+    <!-- colony detail dialog string-->
+    <string name="colony_detail_dialog_title">菌落總數:</string>
+    <string name="colony_detail_dialog_date">實驗日期:</string>
+    <string name="colony_detail_dialog_colony_type">菌種:</string>
+    <string name="colony_detail_dialog_dilution_rate">稀釋倍數:</string>
+    <string name="colony_detail_dialog_experiment_parameters">實驗參數:</string>
+
+    <string name="search_colony_option_all">不限</string>
+
+    <!-- drawer menu string -->
+    <string name="drawer_open">打開</string>
+    <string name="drawer_close">關閉</string>
+    <string name="drawer_logout_title">登出</string>
+    <string name="drawer_logout_msg">確定登出?</string>
+    <string-array name="drawer_menu">
+        <item>我的菌落</item>
+        <item>關於我們</item>
+        <item>登出</item>
+    </string-array>
+
+    <!--takephoto activity string-->
+    <string name="takephoto_msg_before_taking">將圓圈對準培養皿拍攝照片</string>
+    <string name="takephoto_msg_after_taking">選擇重新拍攝或開始計算菌落</string>
+    <string name="takephoto_error_msg_after_taking">對焦失敗，請重試一次</string>
+
+    <!--cropphoto activity string-->
+    <string name="cropphoto_msg">將培養皿對準圓框後，開始計算菌落</string>
+
+    <!--result activity string-->
+    <string name="result_setting_experiment_date_dialog_title">設定實驗日期</string>
+    <string name="result_setting_experiment_info_dialog_title">設定實驗資訊</string>
+    <string name="edittext_hint_msg">自行新增項目...</string>
+    <string name="result_add_colony">新增標記</string>
+    <string name="result_remove_colony">刪除標記</string>
+    <string name="result_add_colony_msg">點擊螢幕上未標示到的菌落來新增標記</string>
+    <string name="result_remove_colony_msg">點擊螢幕上標示錯誤的菌落來刪除標記</string>
+    <string name="result_saving_img_error_msg">儲存失敗，錯誤訊息：</string>
+    <string name="result_saving_img_msg">儲存中，請稍後...</string>
+
+    <string name="loading">讀取中</string>
+    <string name="fragment_settings_construction_opencv_title">"  "OpenCV</string>
+    <string name="fragment_settings_construction_opencv_msg">
+        This software is provided by the copyright holders and contributors “as is” and any express or implied warranties,
+        including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are
+        disclaimed. In no event shall copyright holders or contributors be liable for any direct, indirect, incidental,
+        special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or
+        services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability,
+        whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of
+        the use of this software, even if advised of the possibility of such damage.\n</string>
+    <string name="fragment_settings_construction_timesquare_title">"  "TimesSquare</string>
+    <string name="fragment_settings_construction_timesquare_msg">
+        Copyright 2012 Square, Inc.\n
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\n
+
+        http://www.apache.org/licenses/LICENSE-2.0\n
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.\n</string>
+    <string name="fragment_settings_construction_google_title">"  "Google</string>
+    <string name="fragment_settings_construction_google_msg">
+        Copyright 2013 Google, Inc\n
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\n
+
+            http://www.apache.org/licenses/LICENSE-2.0\n
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.\n</string>>
+    <string name="home_loading_message">讀取照片中，請稍後...</string>
+    <string name="home_info_message">您尚未擁有任何菌落資料，請選擇「拍攝菌落」或「選取照片」開始計算菌落!</string>
+    <string name="search_colony_result_msg">沒有菌落符合搜尋條件!</string>
+
+
+
+
+
+
+    <string name="circles_title">Visible circles:</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+    
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    
+    <!-- action bar -->
+    <string name="actionbar_menu">選單</string>
+    
+    <!-- home activity -->
+    <string name="take_photo">拍攝菌落</string>
+    <string name="select_photo">選擇照片</string>
+    <!-- <string name="home_message">尚未擁有任何菌落資料，請選擇拍攝菌落or選擇照片開始計算菌落!</string> -->
+
+    
+    <!-- google login dialog msg -->
+    <string name="google_login_error_msg">Google Play services is not available. </string>
+    <string name="google_dialog_close">Close</string>
+    
+
+
+    
+    <string name="btn_calc">計算</string>
+    <string name="btn_complete">完成</string>
+    
+    <string name="runningFaceDetection">Please wait\u2026</string>
+    <string name="wallpaper">Setting wallpaper\u2026</string>
+    <string name="savingImage">Saving picture\u2026</string>
+    <string name="multiface_crop_help">Touch a face to begin.</string>
+    <string name="crop_save_text">Save</string>
+    <string name="crop_discard_text">Discard</string>
+    
+    
+    <!--  _____________________________________________________ -->
+    <!-- Label in message of Details dialog  -->
+    <string name="details_file_size">File size:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_resolution">Resolution:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_make">Manufacturer:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_model">Model:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_whitebalance">WhiteBalance:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_latitude">GPS latitude:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_longitude">GPS longitude:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_image_location">Location:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_duration">Duration:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_date_taken">Date taken:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_frame_rate">Frame rate:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_bit_rate">Bit rate:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_codec">Codec:</string>
+    <!-- Label in message of Details dialog  -->
+    <string name="details_format">Format:</string>
+    
+    <string-array name="spin_tag_setting">
+        <item>設定標籤...</item>
+        <item>編號</item>
+        <item>日期</item>
+        <item>菌種</item>
+    </string-array>
+    
+    <!-- calendarpicker -->
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+    <string name="month_name_format">MMMM yyyy</string>
+    <string name="title_activity_test">Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

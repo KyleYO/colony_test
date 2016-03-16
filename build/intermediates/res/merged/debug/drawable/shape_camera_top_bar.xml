@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    
+    <solid android:color="#334197"/>
+</shape><!-- From: file:/D:/Bitbucket/colony-counter-android-1/src/main/res/drawable/shape_camera_top_bar.xml -->

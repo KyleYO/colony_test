@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:state_focused="true"
+        android:drawable="@drawable/btn_date_3day_click"/>
+    <item 
+        android:state_pressed="true"
+        android:drawable="@drawable/btn_date_3day_click" />
+    <item 
+        android:drawable="@drawable/btn_date_3day"/>
+</selector>
+<!-- From: file:/D:/Bitbucket/colony-counter-android-1/src/main/res/drawable/selector_date_3day.xml -->

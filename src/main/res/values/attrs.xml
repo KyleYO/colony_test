@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLayoutLP">
+	    <attr name="android:layout_gravity" />
+	    <attr name="layout_position">
+	        <enum name="middle" value="0" />
+	        <enum name="left" value="1" />
+	        <enum name="right" value="2" />
+	    </attr>
+	</declare-styleable>
+	
+    <declare-styleable name="RangeBar">
+        <attr name="tickCount" format="integer" />
+        <attr name="tickHeight" format="dimension" />
+        <attr name="barWeight" format="dimension" />
+        <attr name="barColor" format="reference|color" />
+        <attr name="connectingLineWeight" format="dimension" />
+        <attr name="connectingLineColor" format="reference|color" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="thumbImageNormal" format="reference" />
+        <attr name="thumbImagePressed" format="reference" />
+        <attr name="thumbColorNormal" format="reference|color"/>
+        <attr name="thumbColorPressed" format="reference|color"/>
+    </declare-styleable>
+    
+    <!-- circle hint view style -->
+    <declare-styleable name="CircleHintView">
+	    <attr name="circleColor" format="color" />
+	</declare-styleable>
+	
+    <!-- calendarpicker -->
+    <declare-styleable name="CalendarPickerView">
+	  <attr name="android:background"/>
+	  <attr name="dividerColor" format="color"/>
+	  <attr name="dayBackground" format="reference"/>
+	  <attr name="dayTextColor" format="color"/>
+	  <attr name="titleTextColor" format="color"/>
+	  <attr name="displayHeader" format="boolean"/>
+	  <attr name="headerTextColor" format="color"/>
+	</declare-styleable>
+	
+	<declare-styleable name="calendar_cell">
+	  <attr name="state_selectable" format="boolean" />
+	  <attr name="state_current_month" format="boolean" />
+	  <attr name="state_today" format="boolean" />
+	  <attr name="state_range_first" format="boolean" />
+	  <attr name="state_range_middle" format="boolean" />
+	  <attr name="state_range_last" format="boolean" />
+	  <attr name="state_highlighted" format="boolean" />
+	</declare-styleable>
+	
+	<!-- WebCachedImageView -->
+	<declare-styleable name="WebCachedImageView">
+        <attr name="cache_mode">
+            <enum name="no_cache" value="0" />
+            <enum name="memory" value="1" />
+            <enum name="disk" value="2" />
+        </attr>
+        <attr name="memoryPercentToUse" format="float" />
+    </declare-styleable>
+</resources>

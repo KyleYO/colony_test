@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_background" >
+	
+    <LinearLayout 
+	    android:id="@+id/top_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:background="@color/btn_background">
+
+        <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/colony_detail_dialog_title"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:textColor="@color/white"
+		    android:layout_marginLeft="15dp"
+		    android:layout_marginTop="10dp"/>
+        
+        <TextView
+		    android:id="@+id/colony_num"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:textColor="@color/white"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:layout_marginBottom="10dp"
+		    android:layout_marginTop="10dp" />
+        
+        <!--<TextView-->
+		    <!--android:layout_width="wrap_content"-->
+		    <!--android:layout_height="wrap_content"-->
+		    <!--android:text="個"-->
+		    <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+		    <!--android:textColor="@color/white"-->
+		    <!--android:layout_marginTop="10dp"/>-->
+    </LinearLayout>
+    
+    
+	<LinearLayout 
+	    android:id="@+id/mid_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/bot_layout"
+	    android:layout_below="@+id/top_layout"
+	    android:orientation="vertical">
+		
+		<com.colonycount.cklab.libs.crop.PhotoView2
+	        android:id="@+id/cropimageview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/loading" />
+		
+		<!-- <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		   	android:layout_weight="1"
+		   	android:orientation="horizontal">
+			
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1">
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_centerHorizontal="true"
+		            android:text="2014-12-02"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		    </RelativeLayout>	
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1">
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_centerHorizontal="true"
+		            android:text="Thermophiles"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		    </RelativeLayout>		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:orientation="horizontal">
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1">
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_centerHorizontal="true"
+		            android:text="10-2"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		    </RelativeLayout>	
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1">
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:layout_centerHorizontal="true"
+		            android:text="時間 VS 酸鹼性"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		    </RelativeLayout>	
+		</LinearLayout> -->
+		
+		<ScrollView
+	        android:id="@+id/scrollView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:padding="5dp">
+	    
+		    <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical" >
+	            
+		        <!-- 日期 -->
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginBottom="5dp">
+		            
+		            <TextView 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/colony_detail_dialog_date"/>
+		            
+		            <TextView 
+		                android:id="@+id/date"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/loading"/>
+		        </LinearLayout>
+		        
+		        <!-- 菌種-->
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginBottom="5dp">
+		            
+		            <TextView 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/colony_detail_dialog_colony_type"/>
+		            
+		            <TextView 
+		                android:id="@+id/type"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/loading"/>
+		        </LinearLayout>
+		        
+		        <!-- 稀釋倍數 -->
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginBottom="5dp">
+		            
+		            <TextView 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/colony_detail_dialog_dilution_rate"/>
+		            
+		            <TextView 
+		                android:id="@+id/dilution_num"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/loading"/>
+		        </LinearLayout>
+		        
+		        <!-- 實驗參數 -->
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginBottom="5dp">
+		            
+		            <TextView 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/colony_detail_dialog_experiment_parameters"/>
+		            
+		            <TextView 
+		                android:id="@+id/exp_param"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/loading"/>
+		        </LinearLayout>
+		    </LinearLayout>
+	    </ScrollView>
+	</LinearLayout>    
+	
+	<TextView
+	    android:id="@+id/show_red_colony"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="50個"
+	    android:textColor="@drawable/selector_text_red_clicked"
+	   	android:drawableLeft="@drawable/selector_eye_red_clicked"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/top_layout"
+	    android:padding="1dp"
+	    android:visibility="gone" />
+    
+    <LinearLayout 
+        android:id="@+id/bot_layout"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:layout_alignParentBottom="true">
+   	
+        <Button
+			android:id="@+id/btn_close"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="@string/btn_ok"
+			android:padding="0dp"
+			android:background="@drawable/selector_btn_clicked"
+			android:textColor="@color/white" />
+   </LinearLayout>
+</RelativeLayout>

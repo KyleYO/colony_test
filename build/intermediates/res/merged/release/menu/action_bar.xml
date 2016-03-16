@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:FragmentHome="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/actionbar_menu"
+        FragmentHome:showAsAction="always"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="filter" />
+    
+</menu>
+<!-- From: file:/D:/Bitbucket/colony-counter-android-1/src/main/res/menu/action_bar.xml -->
